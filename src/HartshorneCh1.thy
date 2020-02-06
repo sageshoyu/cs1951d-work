@@ -1,4 +1,4 @@
-theory Geometry1_30Start imports Main begin
+theory HartshorneCh1 imports Main begin
 
 locale affine_plane_syntax =
   fixes Points :: "'a set" and Lines :: "'a set set"
