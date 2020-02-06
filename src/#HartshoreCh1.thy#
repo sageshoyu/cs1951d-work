@@ -103,7 +103,7 @@ proof -
     using \<open>\<not> l || m\<close> l m parallel_def by blast
 
   have "S \<notin> PQ" 
-    by (metis PQ PQR S_meets affine_plane_syntax.parallel_def m)
+    using PQR PQ S_meets m parallel_def by blast   
 
   have "S \<notin> QR"
     using PQR QR S_meets l parallel_def by blast   
